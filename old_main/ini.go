@@ -1,4 +1,4 @@
-package main_old
+package ini
 
 import (
 	"database/sql"
@@ -8,7 +8,7 @@ import (
 )
 
 
-func main() {
+func ini() {
 
 	db, _ := sql.Open("sqlite3", "db.sqlite")
 	productDbAdpater := db2.NewProductDb(db)
